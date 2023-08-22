@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7649896399578767580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4349547483607480587}
+  - component: {fileID: 1383488968392640792}
+  - component: {fileID: 6523981596748853953}
+  m_Layer: 8
+  m_Name: Sunflower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4349547483607480587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7649896399578767580}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1383488968392640792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7649896399578767580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741a6c7b34ed56641b000e604a44dd7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cropList:
+  - cropModel: {fileID: 8618995988737460983, guid: dc1f1fcdd043f4247a4a9eaaecbebee1, type: 3}
+    day: 0
+  - cropModel: {fileID: 6786976142376105960, guid: 984484d77be3fa64c9e9a5a57c8e03c6, type: 3}
+    day: 4
+  - cropModel: {fileID: 688265627342459041, guid: 566811aad5563b34a8520e77e48c1a57, type: 3}
+    day: 8
+  - cropModel: {fileID: 1028185480535161240, guid: 5fac58ae4f5f89040a2aa846f27811c8, type: 3}
+    day: 12
+  cropState: 0
+  cropModel: {fileID: 0}
+  cropName: Sunflower
+  toolState: 4
+--- !u!65 &6523981596748853953
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7649896399578767580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: 0}

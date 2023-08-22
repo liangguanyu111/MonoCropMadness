@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11504fcb1142a88488206df9ff3cc187, type: 3}
+  m_Name: Watermelon
+  m_EditorClassIdentifier: 
+  SuitSeason: 1
+  myType: 4096
+  compareType: 64
+  cropSprite: {fileID: 21300000, guid: 6d46fd4de52677d4691986e561b2f2f4, type: 3}
+  cropName: Watermelon
+  plantSeed: {fileID: 0}
+  seedPrice: 24
+  cropPrice: 8.8
+  expectProduce: 15
+  marketRequirement: 250

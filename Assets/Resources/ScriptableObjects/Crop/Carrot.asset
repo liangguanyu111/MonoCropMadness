@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11504fcb1142a88488206df9ff3cc187, type: 3}
+  m_Name: Carrot
+  m_EditorClassIdentifier: 
+  SuitSeason: 4
+  myType: 2
+  compareType: 2080
+  cropSprite: {fileID: 21300000, guid: 2cfce9e77d527324baf986031524f3e9, type: 3}
+  cropName: Carrot
+  plantSeed: {fileID: 0}
+  seedPrice: 6
+  cropPrice: 1.8
+  expectProduce: 10
+  marketRequirement: 50
